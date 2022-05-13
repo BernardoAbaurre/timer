@@ -140,7 +140,7 @@ function subhora()
 }
 function stop()
 {
- 
+ intervalo = clearInterval()
 }
 function reset()
 {
