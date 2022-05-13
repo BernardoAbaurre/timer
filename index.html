@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="index.html"><button class="modo"><img src="imagens/cronometro-de-competicao (1).png"><br><p>cronometro</p></button></a>
+    <a href="timer.html"><button class="modo"><img src="imagens/despertador.png"><br><p>timer</p></button></a>
+    <section id="relogio">
+        <nav id="hora" class="tempo">00</nav> 
+        <nav class="ponto">:</nav>
+        <nav id="minuto" class="tempo">00</nav>
+        <nav class="ponto">:</nav>
+        <nav id="segundo" class="tempo">00</nav>
+        <nav class="ponto">:</nav>
+        <nav id="milesimo" class="tempo">00</nav>
+    </section>
+    <button id="pause" class="controle" onclick="stop()" disabled hidden><img src="imagens/pausa.png"></button>
+    <button id="reset" class="controle" onclick="reset()" disabled hidden><img src="imagens/undo-arrow.png"></button>
+    <input type="button" id="start" class="controle" value="start" onclick="start()">
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body
+{
+    font: normal 20pt DIGITAL;
+    text-align: center;
+    color: greenyellow;
+    background-color: black;
+}
+section
+{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+}
+.tempo
+{
+    font-size: 150pt;
+    width: 200px;
+    margin: auto;
+    margin-right: 20px;
+    padding: 0px;
+}
+.botao
+{
+    font-size: 20pt;
+    margin-top: 20px;
+    background-color: black;
+    font-family: 'DIGITAL';
+    color: greenyellow;
+    border: 2px solid greenyellow;
+}
+.ponto{
+    margin: auto;
+    margin-right: 10px;
+}
+h1
+{
+    font-size: 70pt;
+    margin: 0px;
+}
+@font-face {
+    font-family:'DIGITAL' ;
+    src: url('DS-DIGIT.TTF') format('opentype');
+}
+.modo
+{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+}
+.modo img
+{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    vertical-align: middle;
+}
+.modo p
+{
+    font: 20pt DIGITAL;
+    margin: 0px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: greenyellow;
+}
+.controle img
+{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    vertical-align: middle;
+}
+.controle
+{
+    font-size: 20pt;
+    margin-top: 20px;
+    background-color: black;
+    font-family: 'DIGITAL';
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    height:fit-content;
+    width: fit-content;
+    padding: 4px;
+}
